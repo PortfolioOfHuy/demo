@@ -1,5 +1,4 @@
 'use client'
-import ModalVideo from 'react-modal-video'
 import { useState } from 'react'
 export default function Video() {
     const [isOpen, setOpen] = useState(false)
@@ -33,8 +32,6 @@ export default function Video() {
                 </div>
             </div>
         </section>
-        {/*Video One End*/}  
-        <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Get7rqXYrbQ" onClose={() => setOpen(false)} />
         </>
     )
 }

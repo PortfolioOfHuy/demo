@@ -1,6 +1,5 @@
 'use client'
 import Link from "next/link"
-import ModalVideo from 'react-modal-video'
 import { useState } from 'react'
 export default function About() {
     const [isOpen, setOpen] = useState(false)
@@ -83,9 +82,6 @@ export default function About() {
                 </div>
             </div>
         </section>
-        {/*About Three End*/}
-
-        <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Get7rqXYrbQ" onClose={() => setOpen(false)} />
         </>
     )
 }

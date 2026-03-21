@@ -1,7 +1,6 @@
 'use client'
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
-import ModalVideo from 'react-modal-video'
 import { useState } from 'react'
 export default function Home() {
     const [isOpen, setOpen] = useState(false)
@@ -407,8 +406,6 @@ export default function Home() {
                 </div>
             </div>
         </section>
-        {/*CTA One End*/}
-        <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Get7rqXYrbQ" onClose={() => setOpen(false)} />
         </Layout>
         </>
     )

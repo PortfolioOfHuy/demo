@@ -1,6 +1,5 @@
 'use client'
 import { useState } from 'react'
-import ModalVideo from 'react-modal-video'
 
 
 export default function VideoPopup({ style, text }) {
@@ -45,10 +44,6 @@ export default function VideoPopup({ style, text }) {
             {style === 5 &&
                 <a onClick={() => setOpen(true)} className="video-btn overlay-link lightbox-image video-fancybox ripple"><span className="fas fa-play" /></a>
             }
-
-
-
-            <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="vfhzo499OeA" onClose={() => setOpen(false)} />
         </>
     )
 }

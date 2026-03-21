@@ -3,7 +3,6 @@
 import Link from "next/link"
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
-import ModalVideo from 'react-modal-video'
 import { useState } from 'react'
 
 const swiperOptions = {
@@ -164,8 +163,6 @@ export default function Banner() {
                 </div>
             </div>
         </section>
-        {/*Main Slider End*/}
-        <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Get7rqXYrbQ" onClose={() => setOpen(false)} />
         </>
     )
 }
