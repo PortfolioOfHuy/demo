@@ -29,17 +29,17 @@
   --zefxa-gray: #6b7280;
   --zefxa-gray-rgb: 107, 114, 128;
 
-  --zefxa-white: #f9fafb;
-  --zefxa-white-rgb: 249, 250, 251;
+  --zefxa-white: #f3f4f6;
+  --zefxa-white-rgb: 243, 244, 246;
 
-  --zefxa-base: #0e1e3c;
-  --zefxa-base-rgb: 14, 30, 60;
+  --zefxa-base: #334155;
+  --zefxa-base-rgb: 51, 65, 85;
 
-  --zefxa-black: #1c1b1f;
-  --zefxa-black-rgb: 28, 27, 31;
+  --zefxa-black: #111827;
+  --zefxa-black-rgb: 17, 24, 39;
 
-  --zefxa-extra: #d4a017;
-  --zefxa-extra-rgb: 212, 160, 23;
+  --zefxa-extra: #ea580c;
+  --zefxa-extra-rgb: 234, 88, 12;
 }
 
 .row {
