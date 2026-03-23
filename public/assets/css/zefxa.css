@@ -5181,6 +5181,21 @@ a.video-popup {
   position: relative;
   display: block;
   margin-bottom: 17px;
+  width: 156px;
+  height: 44px;
+}
+
+.footer-widget__logo a {
+  display: block;
+  width: 156px;
+  height: 44px;
+}
+
+.footer-widget__logo img {
+  display: block;
+  width: 156px;
+  height: 44px;
+  object-fit: contain;
 }
 
 .footer-widget__about-text {
